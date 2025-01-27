@@ -1,0 +1,118 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white; /* Set background color to white */
+  overflow-x: hidden;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: rgb(254, 249, 249); /* Set header background color to blue */
+  color: rgb(42, 136, 244); /* Set header text color to white */
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width for the header */
+  margin: 0 auto; /* Center the header */
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-nav {
+  display: flex;
+  gap: 30px; /* Increase gap between navigation links */
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: rgb(14, 13, 13); /* Set link color to white */
+  font-size: 1rem;
+  padding: 10px 15px; /* Add padding to make the links look like buttons */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Add transition for hover effect */
+}
+
+.header-nav a:hover {
+  background-color: red; /* Change background color to red on hover */
+  color: white; /* Ensure text color remains white on hover */
+}
+
+.logo {
+  height: 50px;
+}
+
+/* Image Section */
+.image-section {
+  margin-top: 0; /* Remove margin to avoid overlap with the fixed header */
+  text-align: center;
+}
+
+.main-image {
+  width: 100%; /* Set the width of the image to 100% */
+  height: auto;
+}
+
+.secondary-image {
+  width: 100%; /* Set the width of the second image to 100% */
+  height: auto;
+  margin-top: 20px; /* Add margin to separate the images */
+}
+
+.tertiary-image {
+  width: 100%; /* Set the width of the third image to 100% */
+  height: auto;
+  margin-top: 20px; /* Add margin to separate the images */
+}
+
+/* Content Section */
+.content-section {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: rgb(233, 233, 242); /* Set footer background color to blue */
+  color: white; /* Set footer text color to white */
+  padding: 20px 40px;
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width for the footer */
+  margin: 50px auto 0; /* Center the footer and add margin to the top */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  color: black; /* Set footer text color to black */
+}
+
+.footer-right {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: rgb(23, 22, 22); /* Set link color to white */
+  transition: color 0.3s;
+}
+
+.footer-right a:hover {
+  color: red; /* Change link color to red on hover */
+}
